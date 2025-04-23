@@ -24,7 +24,7 @@ Description=Workaround for Gigabyte BIOS sleep/wakeup bug
 
 [Service]
 Type=oneshot
-ExecStart = /bin/sh -c 'if grep 'GPP0' /proc/acpi/wakeup | grep -q 'enabled'; then echo 'GPP0' > /proc/acpi/wakeup; fi'
+ExecStart = /bin/sh -c 'if grep 'GPP8' /proc/acpi/wakeup | grep -q 'enabled'; then echo 'GPP8' > /proc/acpi/wakeup; fi'
 
 [Install]
 WantedBy = multi-user.target
