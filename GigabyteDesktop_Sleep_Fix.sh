@@ -8,7 +8,7 @@
 # This script can be run in a single line from your shell!
 # Simply run the following in the Terminal:
 #
-#   sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/DAK404/OpenSUSE-Setup-Scripts/main/GigabyteDesktop_Sleep_Fix.sh)"
+#   sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/PercyPanleo/OpenSUSE-Setup-Scripts/main/GigabyteDesktop_Sleep_Fix.sh)"
 #
 # ----------------------------------------------------------
 #
@@ -16,6 +16,9 @@
 #
 # 1.0 (19-July-2024):
 #    * Bump version to 1.0
+# 22-April-2025:
+#    * Forked from DAK404
+#    * Replaced GPP0 with GPP8 for certain Gigabyte motherboards
 ############################################################
 
 sudo cat > /etc/systemd/system/biosWakeupWorkaround.service << EOL
