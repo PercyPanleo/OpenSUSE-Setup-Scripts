@@ -2,6 +2,8 @@
 
 ############################################################
 # Sleep/Wakeup Fix For Gigabyte Motherboards
+# Script forked from DAK404's repo
+# Modified for Gigabyte A520i AC by PercyPanleo
 #
 # ----------------------------------------------------------
 # ATTENTION!
@@ -16,7 +18,7 @@
 #
 # 1.0 (19-July-2024):
 #    * Bump version to 1.0
-# 22-April-2025:
+# 1.0.1 (22-April-2025):
 #    * Forked from DAK404
 #    * Replaced GPP0 with GPP8 for certain Gigabyte motherboards
 ############################################################
